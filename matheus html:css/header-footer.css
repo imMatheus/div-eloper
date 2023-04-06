@@ -1,0 +1,1093 @@
+
+/*en univ eniversiell css dokument för all hemsidor, den stylar header samt footer*/
+
+
+
+*{ /*en enkel reset*/
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-decoration: none;
+}
+
+.header{ /* conteainer för headern*/
+
+    width: 100%;
+    height: 82px;
+    background-color: #100e17;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #201c29;
+    z-index: 1000;
+  }
+  
+  .header-logo{
+    width: 370px;
+    height: 100%;
+    background-color: transparent;
+    float: left;
+    border-right: 1px solid #201c29;
+  }
+  
+  .header-logo-text{
+    width: 250px;
+    height: 66px;
+    background-color: transparent;
+    font-size: 41px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    text-align: center;
+    padding-top: 16px;
+    float: left;
+  }
+  
+  #Div{ /* en id för att styla den del i logon där det stor "div"*/
+    color: tomato;
+  }
+  
+  .header-logo-img{ /*här är en mindre box för att placera min logo svg*/
+    width: 80px;
+    height: 100%;
+    background-color: transparent;
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .header-logo-img svg{
+    width: 76%;
+    height: 76%;
+    margin: 12%;
+    color: tomato;
+    background-color: transparent;
+    opacity: 0.9;
+    
+  }
+  
+  .header-event{
+    width: 870px;
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+   
+  }
+  
+  .header-event-box{
+  
+    width: 140px;
+    height: 82px;
+    background-color: #100e17;
+    float: left;
+    border-width: 0px 0.5px;
+    border-color: #201c29;
+    border-style: solid;
+   
+  }
+  
+  .header-event-box:last-child{ /*då jag vill ha en border mellan alla boxes som ska ha width på 1px så behöver jag ändra första boxen samt sista boxen */
+    border-width: 0px 1px 0px 0.5px;
+  }
+  
+  .header-event-box:first-child{
+    border-width: 0px 0.5px 0px 1px;
+  }
+  
+  .header-event-box-text{
+    width: 130px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19px;
+    background-color: transparent;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    text-align: center;
+    padding-top: 10px;
+    
+  
+  }
+  
+  #header1{
+     color: inherit;
+  }
+  
+  #header2{
+    color: inherit;
+  }
+  
+  #header3{
+    color: inherit;
+  }
+  
+  #header4{
+    color: inherit;
+  }
+  
+  #header5{
+    color: inherit;
+  }
+  
+  #header6{
+    color: inherit;
+  }
+  
+
+  /*detta är till för att ändra färgen på content boxes när man hovra över container*/
+  .header-event:hover #header1 {
+     color: rgb(33, 33, 207);
+     transition: 250ms;
+  }
+  
+  .header-event:hover #header2 {
+    color: palevioletred;
+    transition: 250ms;
+  }
+  
+  .header-event:hover #header3 {
+    color: skyblue;
+    transition: 250ms;
+  }
+  
+  .header-event:hover #header4 {
+    color: green;
+    transition: 250ms;
+  }
+  
+  .header-event:hover #header5{
+    color: rgb(207, 13, 13);
+    transition: 250ms;
+  }
+  
+  .header-event-box-text:hover #header1, .header-event-box-text:hover #header3, .header-event-box-text:hover #header4, .header-event-box-text:hover #header5{
+    color: tomato;
+    text-shadow: 1px 1px 23px tomato;
+  }
+  
+ 
+ #arrow{
+     color: inherit;
+     display: none;
+     position: relative;
+     font-size: 20px;
+ }
+ 
+  #dropdown input{
+      position: absolute;
+      float: left;
+      margin-top: 15px;
+      height: 60px;
+      width: 140px;
+      z-index: 50;
+      opacity: 0;
+      cursor: pointer;
+
+  }
+
+  #dropdown input:hover ~ .header-event-box-text #header2{
+
+    color: tomato;
+    text-shadow: 1px 1px 23px tomato;
+  }
+
+  #dropdown input:hover ~ .header-event-box-text #arrow{
+
+    color: tomato;
+    text-shadow: 1px 1px 23px tomato;
+    display: initial;
+    animation: arrowMove 1s infinite;
+    transition: display, 2s;
+  }
+
+  @keyframes arrowMove{
+      0%{top: 0px; opacity: 0.8;}
+      50%{top: 6px; opacity: 1;}
+      100%{top: 0px; opacity: 0.8;}
+  }
+  
+ 
+
+  .dropdown-bigbox{
+    width: 450px;
+    height: 100px;
+    background-color: #100e17;
+    position: absolute;
+    z-index: 10000;
+    opacity: 1;
+    margin-top: 83px;
+    transform: translate(0%, -200%);
+    transition: transform, opacity, 0.5s ;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(191, 214, 191);
+    
+}
+
+#dropdown input:checked ~ .dropdown-bigbox{
+    transform: translate(0%, 0%);
+    opacity: 1;
+   
+}
+
+.dropdown-minibox{
+    width: 135px;
+    height: 100%;
+    background-color: transparent;
+    float: left;
+    border-right: 1px solid #201c29;
+   
+}
+
+.dropdown-minibox:last-child{
+    border-right: none;
+}
+
+.dropdown-minibox-text{
+    width: 100%;
+    height: 37px;
+    background-color: transparent;
+    position: relative;
+    top: 33px;
+    font-size: 25px;
+    color: #03a9f4;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.dropdown-minibox-text:hover{
+    
+    color: tomato;
+    text-shadow: 1px 1px 23px tomato;
+}
+  
+  .hamburgermenu{
+  
+    display: none;
+  }
+  
+  .hamburgermenu svg{
+    width: 100%;
+    height: 100%;
+    color: #03a9f4;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+  
+    .header-event{
+      width: 670px;
+      background-color: transparent;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+     
+    }
+    .header-event-box{
+      width: 100px;
+      height: 82px;
+      background-color: transparent;
+      float: left;
+      border-width: 0px 0.5px;
+      border-color: #201c29;
+      border-style: solid;
+    }
+  
+    .header-event-box-text{
+      width: 100%;
+      height: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 19px;
+      background-color: transparent;
+      font-size: 19px;
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+      text-align: center;
+      padding-top: 10px;
+      
+    
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+  
+    /*en box som kommer upp för centrea min logo*/
+    .header-centrer{
+      width: calc(100% - 100px);/*det här räknar ut längen av skärmen minus boxen för våran hamburgar menu*/
+      height: 100%;
+      background-color: transparent;
+      margin-left: 100px;
+      display: flex;
+      justify-content: center;
+    }
+    .header{
+      width: 100%;
+      height: 82px;
+      background-color: #100e17;
+      border-bottom: 1px solid #201c29;
+      display: block;
+      
+    }
+  
+    .header-event{
+      width: 670px;
+      background-color: transparent;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      display: none;
+     
+    }
+  
+    .header-logo{
+      background-color:transparent;
+      position: relative;
+      width: 315px;
+      border-right: none;
+     
+    }
+  
+  .header-logo-text{
+    width: 220px;
+    height: 66px;
+    background-color: transparent;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    text-align: center;
+    padding-top: 16px;
+    float: left;
+  }
+  
+  #Div{
+    color: tomato;
+  }
+  
+  .header-logo-img{
+    width: 80px;
+    height: 100%;
+    background-color: transparent;
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .header-logo-img svg{
+    width: 72%;
+    height: 72%;
+    margin: 18%;
+    color: tomato;
+    background-color: transparent;
+    opacity: 0.9;
+    
+  }
+  
+    .header-event-box{
+      width: 100px;
+      height: 82px;
+      background-color: #07011b;
+      float: left;
+      border-width: 0px 0.5px;
+      border-color: #201c29;
+      border-style: solid;
+    }
+  
+    .header-event-box-text{
+      width: 100%;
+      height: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 19px;
+      background-color: rgb(119, 172, 13);
+      font-size: 19px;
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+      text-align: center;
+      padding-top: 10px;
+      
+    
+    }
+  
+    .hamburgermenu{
+      width: 100px;
+      height: 80px;
+      background-color: transparent;
+      float: left;
+      display: initial;
+      
+    }
+  
+    #menuToggle
+  {
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 50px;
+   
+    z-index: 2;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  #menuToggle a
+  {
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+  }
+  
+  #menuToggle a:hover
+  {
+    color: tomato;
+  }
+  
+  
+  #menuToggle input 
+  {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 3; /* and place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+  }
+  
+  /*
+   * Just a quick hamburger
+   */
+  #menuToggle span
+  {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    
+    background: #cdcdcd;
+    border-radius: 3px;
+    
+    z-index: 2;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+  
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+  
+  /* 
+   * Transform all the slices of hamburger
+   * into a crossmark.
+   */
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+  
+  /*
+   * But let's hide the middle one.
+   */
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  /*
+   * Ohyeah and the last one should go the other direction
+   */
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  
+  /*
+   * Make this absolute positioned
+   * at the top left of the screen
+   */
+  #menu
+  {
+    position: absolute;
+    width: 150px;
+    margin: -100px 0 0 -54px;
+    padding: 50px;
+    padding-top: 125px;
+    opacity: 1;
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    z-index: 1;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0) ;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    
+  }
+  
+  
+  
+  #menu li
+  {
+    padding: 10px 0;
+    font-size: 22px;
+    
+  }
+  
+  #menu input:checked{ 
+   opacity: 1;
+  }
+  
+  /*
+   * And let's slide it in from the left
+   */
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+    opacity: 1;
+    
+   }
+  
+  
+   #menu:hover #header1 {
+    color: rgb(33, 33, 207);
+    transition: 250ms;
+  }
+  
+  #menu:hover #header2 {
+   color: palevioletred;
+   transition: 250ms;
+  }
+  
+  #menu:hover #header3 {
+   color: skyblue;
+   transition: 250ms;
+  }
+  
+  #menu:hover #header4 {
+   color: green;
+   transition: 250ms;
+  }
+  
+  #menu:hover #header5 {
+   color: rgb(207, 13, 13);
+   transition: 250ms;
+  }
+  
+  #menu #header1:hover, #menu #header2:hover, #menu #header3:hover, #menu #header4:hover, #menu #header5:hover{
+    color: tomato;
+    text-shadow: 1px 1px 23px tomato;
+  }
+
+  #header2-ul{
+    font-size: 19px;
+    display: block;
+  }
+  
+  #header2-ul a li{
+      font-size: inherit;
+      list-style-type: none;
+      padding: 15px 0px 0px 10px;
+      
+  }
+
+  #juste{
+      width: 40px;
+      height: 40px;
+      opacity: 1;
+      display: block;
+      cursor: pointer;
+  }
+
+  .ulla{
+      width: 130px;
+      height: auto;
+      background-color: transparent;
+      display: block;
+  }
+
+
+  .britta{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    transform: translate(0%, 0%);
+    transition: transform 1s, opacity 0.01s;
+    display: block;
+    opacity: 1;
+    position: relative;
+  }
+
+  .britta ul{
+
+   
+    list-style-type: none;
+    padding: 6px 0px 0px 10px ;
+    
+  }
+
+  .britta li{
+    padding: 10px 15px;
+    text-shadow: none;
+  }
+
+  
+
+
+  .britta li:hover {
+    text-shadow: 1px 1px 23px tomato;
+    color: tomato;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer{
+    width: 100%;
+    height: 360px;
+    background-color: #07011b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-contentbox{
+    width: 900px;
+    height: 260px;
+    background-color: #07011b;
+    border: 2px solid #201c29;
+  }
+
+  .footer-text{
+    width: 499px;
+    height: 100%;
+    background-color: transparent;
+    float: left;
+    border-right: 1px solid #201c29;
+  }
+
+  .footer-text-logo{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 44px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 400;
+  
+  }
+
+  .footer-text-logo span{
+    color: tomato;
+  }
+
+  .footer-text-bread{
+    width: 450px;
+    height: 150px;
+    background-color: transparent;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    padding: 5px 15px 0px 15px;
+    font-weight: 340;
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+  .footer-follow{
+    width: 400px;
+    height: 100%;
+    background-color: transparent;
+    float: right;
+  }
+
+  .footer-follow-bigbox{
+      width: 350px;
+      height: 220px;
+      background-color: transparent;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+  }
+
+  .footer-follow-header{
+    width: 230px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    color: tomato;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+  .footer-follow-links{
+    width: 330px;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-follow-links-circle{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: orangered;
+    box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.1),
+                 5px 5px 5px rgba(0, 0, 0, 0.4);
+    filter: blur(0px)
+  }
+
+  .t6a{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#14ffe9,#ffeb3b, #ff00e0);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    
+  }
+
+  .footer-follow-links-circle:hover .t6a{
+    animation: linksCircle-spin 0.5s linear infinite;
+  }
+
+  @keyframes linksCircle-spin{
+    0%{
+      transform: rotate(0deg);
+    
+    } 
+  
+    100%{
+      transform: rotate(360deg);
+     
+    }
+  }
+
+  .footer-follow-links-innercircle{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: static;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  #facebook{
+     color: white;
+     width: 60px;
+     height: 53px;
+     transition: color 400ms;
+  }
+
+  #instagram{
+    color: white;
+    width: 52px;
+    height: 52px;
+    transition: color 400ms;
+  }
+
+  #twitter{
+    color: white;
+    width: 52px;
+    height: 52px;
+    transition: color 400ms;
+  }
+
+  #reddit{
+    color: white;
+    width: 58px;
+    height: 58px;
+    transition: color 400ms;
+  }
+
+#facebook-circle:hover svg{
+  color: blue;
+}
+
+#instagram-circle:hover svg{
+  color: rgb(143, 51, 143);
+}
+
+#twitter-circle:hover svg{
+  color: rgb(58, 137, 255);
+}
+
+#reddit-circle:hover svg{
+  color: red;
+  
+}
+
+
+
+@media only screen and (max-width: 940px){
+
+  .footer{
+    width: 100%;
+    height: 460px;
+    background-color: #07011b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-contentbox{
+    width: 700px;
+    height: 400px;
+    background-color: #07011b;
+    border: 2px solid #201c29;
+  }
+
+  .footer-text{
+    width: 100%;
+    height: 160px;
+    background-color: transparent;
+    
+    border-bottom: 1px solid #201c29;
+  }
+
+  .footer-text-logo{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 400;
+  
+  }
+
+  .footer-text-logo span{
+    color: tomato;
+  }
+
+  .footer-text-bread{
+    width: 600px;
+    height: 80px;
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding: 5px 20px 0px 20px;
+    font-weight: 340;
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+  .footer-follow{
+    width: 450px;
+    height: 200px;
+    background-color: transparent;
+    float: left;
+    margin-left: calc((700px - 450px) / 2);
+    margin-right: auto;
+  }
+
+  .footer-follow-bigbox{
+      width: 450px;
+      height: 170px;
+      background-color: transparent;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+  }
+
+  .footer-follow-header{
+    width: 230px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    color: tomato;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+  .footer-follow-links{
+    width: 430px;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 710px){
+
+  .footer{
+    width: 100%;
+    height: 470px;
+    background-color: #07011b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-contentbox{
+    width: 465px;
+    height: 380px;
+    background-color: #07011b;
+    border: 2px solid #201c29;
+  }
+
+  .footer-text{
+    width: 100%;
+    height: 160px;
+    background-color: transparent;
+    border-right: 1px solid #201c29;
+  }
+
+  .footer-text-logo{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 400;
+  
+  }
+
+  .footer-text-logo span{
+    color: tomato;
+  }
+
+  .footer-text-bread{
+    width: 425px;
+    height: 80px;
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding: 5px 20px 0px 20px;
+    font-weight: 340;
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+  .footer-follow{
+    width: 420px;
+    height: 200px;
+    background-color: transparent;
+    float: left;
+    margin-left: calc((465px - 420px) / 2);
+    margin-right: auto;
+  }
+
+  .footer-follow-bigbox{
+      width: 100%;
+      height: 170px;
+      background-color: transparent;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+  }
+
+  .footer-follow-header{
+    width: 230px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    color: tomato;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+  .footer-follow-links{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,1029 @@
+@charset "UTF-8";
+
+body{
+    height: auto;
+    
+}
+
+.welcome{
+    width: 100%;
+    height: 600px;
+    background-color:#f2f3f2;
+    overflow: hidden;
+}
+
+.welcomeimg{
+    width: 1100px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.welcomeimg img{
+    width: 1100px;
+    height: 100%;
+   
+}
+
+.mainbox{
+
+    width: 100%;
+    height: 930px;
+    background-color: #131419;
+}
+
+.mainboximg{
+
+    width: 750px;
+    height: 670px;
+    background-color: transparent;
+    position: relative;
+    float: left;
+    top: 130px;
+}
+
+.mainboximg img{
+
+    width: 570px;
+    height: 100%;
+    margin-left: 180px;
+    margin-right: auto;
+    background-color: transparent;
+    
+}
+
+.mainboxcontent{
+
+    width: 500px;
+    height: 300px;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    right: 80px;
+    margin-top: 200px;
+}
+
+.mainboxtext1{
+
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 320;
+    color: white;
+}
+
+.mainboxtext2{
+
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 34px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 320;
+    color: white;
+}
+
+.mainboxtext3{
+
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 320;
+    color: white;
+}
+
+
+
+.infomainbox{
+
+    width: 100%;
+    height: 460px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.infobox1{
+
+    width: 720px;
+    height: 360px;
+    position: relative;
+    top: 100px;
+    background-color: transparent;
+}
+
+.infoboxtext1{
+
+    width: 100%;
+    height: 130px;
+    background-color: transparent;
+    font-size: 48px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+}
+
+.infoboxtext2{
+
+    width: 100%;
+    height: 130px;
+    margin-top: 20px;
+    background-color: transparent;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.3;
+    padding: 15px 0px 5px 0px;
+    color: #333;
+}
+
+.infoboxtext3{
+
+    width: 100%;
+    height: 30px;
+    margin-top: 8px;
+    background-color: transparent;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 440;
+    text-align: center;
+    line-height: 1.3;
+    padding: 5px 0px 5px 0px;
+    color: #333;
+}
+
+.content{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.heartbeet{
+
+    width: 900px;
+    height: 490px;
+    background-color: transparent;
+    position: relative;
+    top: 100px;
+}
+
+.heartbeettext{
+
+    width: 420px;
+    height: 490px;
+    background-color: transparent;
+    float: left;
+    margin-top: 80px;
+}
+
+.heartbeettextheader{
+
+    width: 100%;
+    height: 110px;
+    background-color: transparent;
+    font-size: 40px;
+    font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+#Hälsan{
+
+    color: tomato;
+}
+
+#musik{
+
+    color: rgb(163, 0, 163);
+}
+
+.heartbeettextbread{
+
+    width: 100%;
+    height: 310px;
+    background-color: transparent;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+}
+
+.heartbeetimg{
+
+    width: 400px;
+    height: 490px;
+    background-color: transparent;
+    float: right;
+}
+
+.heartbeetimg img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.phonecallbigbox{
+
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.phonecall{
+
+    width: 900px;
+    height: 490px;
+    background-color: transparent;
+    position: relative;
+    top: 100px;
+}
+
+
+.phonecalltext{
+
+    width: 420px;
+    height: 490px;
+    background-color: transparent;
+    float: right;
+    margin-top: 80px;
+}
+
+.phonecalltextheader{
+
+    width: 100%;
+    height: 110px;
+    background-color: transparent;
+    font-size: 40px;
+    font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+#phonecall{
+
+    color: rgb(0, 230, 0);
+}
+ 
+#A{
+    color: tomato;
+}
+
+#P{
+    color: rgb(0, 230, 0);
+}
+
+#p{
+    color: rgb(163, 0, 163);
+}
+
+#a{
+    color: skyblue;
+}
+
+#r{
+    color: blue;
+}
+
+#lastwatch{
+
+    padding-bottom: 200px;
+}
+
+.phonecalltextbread{
+
+    width: 100%;
+    height: 310px;
+    background-color: transparent;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+    
+}
+
+.phonecallimg{
+
+    width: 400px;
+    height: 490px;
+    background-color: transparent;
+    float: left;
+}
+
+.phonecallimg img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.divider{
+    width: 100%;
+    height: 13px;
+    background-color: #e6e6e6;
+}
+
+.braker{
+    width: 100%;
+    height: 620px;
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+}
+
+.brakerimg{
+    width: 950px;
+    height: 515px;
+    position: relative;
+    top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+}
+
+.brakerimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.brakertext{
+    width: 260px;
+    height: 150px;
+    background-color: transparent;
+    position: absolute;
+    padding: 8px;
+    z-index: 3;
+    margin-left: -265px;
+    margin-top: 80px;
+    text-align: left;
+    font-size: 38px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+
+
+
+
+@media only screen and (max-width: 1250px) {
+
+
+
+    .firstimg img{
+
+        width: 1085px;
+        background-color: transparent;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .mainboximg{
+
+        width: 580px;
+        height: 670px;
+        background-color: transparent;
+        position: relative;
+        float: left;
+        top: 130px;
+    }
+
+
+    .mainboximg img{
+
+        width: 570px;
+        height: 100%;
+        margin-left: 10px;
+        margin-right: auto;
+        background-color: transparent;
+        
+    }
+}
+
+@media only screen and (max-width: 1105px){
+
+    .welcome{
+        width: 100%;
+        height: 430px;
+        background-color:#f2f3f2;
+    }
+    
+    .welcomeimg{
+        width: 800px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .welcomeimg img{
+        width: 800px;
+        height: 100%;
+       
+    }
+    
+}
+
+@media only screen and (max-width: 805px){
+
+    .welcome{
+        width: 100%;
+        height: 375px;
+        background-color:#f2f3f2;
+
+    }
+    
+    .welcomeimg{
+        width: 100%;
+        height: 375px;
+        background-color: transparent;
+        background-image: url(applewatch26.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+   .welcomeimg img{
+       opacity: 0;
+   }
+    
+}
+
+
+
+@media only screen and (max-width: 1085px) {
+
+
+    .mainbox{
+
+        width: 100%;
+        height: 1130px;
+        background-color: #131419;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainboximg{
+
+        width: 100%;
+        height: 670px;
+        background-color: transparent;
+        position: relative;
+        top: 360px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .mainboximg img{
+
+        width: 600px;
+        height: 100%;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+    .mainboxcontent{
+
+        width: 500px;
+        height: 300px;
+        background-color: transparent;
+        position: absolute;
+        right: auto;
+        margin-top: 50px;
+       
+    }
+
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .content{
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .heartbeet{
+    
+        width: 800px;
+        height: 490px;
+        background-color: white;
+        position: relative;
+        top: 100px;
+    }
+    
+    .heartbeettext{
+    
+        width: 420px;
+        height: 420px;
+        background-color: transparent;
+        float: left;
+        margin-top: 43px;
+    }
+    
+    .heartbeettextheader{
+    
+        width: 100%;
+        height: 110px;
+        background-color: transparent;
+        font-size: 40px;
+        font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    #Hälsan{
+    
+        color: tomato;
+    }
+    
+    #musik{
+    
+        color: rgb(163, 0, 163);
+    }
+    
+    .heartbeettextbread{
+    
+        width: 100%;
+        height: 280px;
+        background-color: transparent;
+        font-size: 18px;
+        margin-top: 10px;
+        font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 400;
+        color: #333;
+        line-height: 1.5;
+    }
+    
+    .heartbeetimg{
+    
+        width: 350px;
+        height: 440px;
+        background-color: transparent;
+        float: right;
+    }
+    
+    .heartbeetimg img{
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .phonecallbigbox{
+    
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .phonecall{
+    
+        width: 800px;
+        height: 490px;
+        background-color: transparent;
+        position: relative;
+        top: 100px;
+    }
+    
+    
+    .phonecalltext{
+    
+        width: 420px;
+        height: 370px;
+        background-color: transparent;
+        float: right;
+        margin-top: 43px;
+    }
+    
+    .phonecalltextheader{
+    
+        width: 100%;
+        height: 110px;
+        background-color: transparent;
+        font-size: 40px;
+        font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    #phonecall{
+    
+        color: rgb(0, 230, 0);
+    }
+     
+    #A{
+        color: tomato;
+    }
+    
+    #P{
+        color: rgb(0, 230, 0);
+    }
+    
+    #p{
+        color: rgb(163, 0, 163);
+    }
+    
+    #a{
+        color: skyblue;
+    }
+    
+    #r{
+        color: blue;
+    }
+    
+    .phonecalltextbread{
+    
+        width: 100%;
+        height: 240px;
+        background-color: transparent;
+        font-size: 18px;
+        margin-top: 10px;
+        font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 400;
+        color: #333;
+        line-height: 1.5;
+        
+    }
+    
+    .phonecallimg{
+    
+        width: 350px;
+        height: 440px;
+        background-color: transparent;
+        float: left;
+    }
+    
+    .phonecallimg img{
+    
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 812px) {
+
+    
+    .infomainbox{
+
+        width: 100%;
+        height: 350px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .infobox1{
+    
+        width: 500px;
+        height: 320px;
+        position: relative;
+        top: 40px;
+        background-color: transparent;
+    }
+    
+    .infoboxtext1{
+    
+        width: 470px;
+        height: 80px;
+        background-color: transparent;
+        font-size: 32px;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 500;
+        text-align: center;
+        color: #000;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .infoboxtext2{
+    
+        width: 470px;
+        height: 150px;
+        margin-top: 10px;
+        background-color: transparent;
+        font-size: 22px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1.3;
+        padding: 15px 15px 5px 15px;
+        color: #333;
+    }
+    
+    .infoboxtext3{
+    
+        width: 100%;
+        height: 30px;
+        margin-top: 8px;
+        background-color: transparent;
+        font-size: 22px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 440;
+        text-align: center;
+        line-height: 1.3;
+        padding: 5px 0px 5px 0px;
+        color: #333;
+    }
+    
+    .content{
+        width: 100%;
+        height: 1040px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .heartbeet{
+    
+        width: 800px;
+        height: 980px;
+        background-color: white;
+        top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .heartbeettext{
+    
+        width: 460px;
+        height: 420px;
+        background-color: transparent;
+        position: relative;
+        top: 486px;
+    }
+    
+    .heartbeettextheader{
+    
+        width: 100%;
+        height: 110px;
+        background-color: transparent;
+        font-size: 40px;
+        font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    #Hälsan{
+    
+        color: tomato;
+    }
+    
+    #musik{
+    
+        color: rgb(163, 0, 163);
+    }
+    
+    .heartbeettextbread{
+    
+        width: 100%;
+        height: 280px;
+        background-color: transparent;
+        font-size: 18px;
+        margin-top: 10px;
+        font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 400;
+        color: #333;
+        line-height: 1.5;
+    }
+    
+    .heartbeetimg{
+    
+        width: 392px;
+        height: 425px;
+        background-color: transparent;
+        position: absolute;
+        margin-top: 40px;
+       
+    }
+    
+    .heartbeetimg img{
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .phonecallbigbox{
+    
+      
+        width: 100%;
+        height: 1040px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .phonecall{
+    
+        
+        width: 800px;
+        height: 980px;
+        background-color: transparent;
+        top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .phonecalltext{
+    
+       
+        width: 460px;
+        height: 420px;
+        background-color: transparent;
+        position: relative;
+        top: 486px;
+    }
+    
+    .phonecalltextheader{
+    
+        width: 100%;
+        height: 110px;
+        background-color: transparent;
+        font-size: 40px;
+        font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    #phonecall{
+    
+        color: rgb(0, 230, 0);
+    }
+     
+    #A{
+        color: tomato;
+    }
+    
+    #P{
+        color: rgb(0, 230, 0);
+    }
+    
+    #p{
+        color: rgb(163, 0, 163);
+    }
+    
+    #a{
+        color: skyblue;
+    }
+    
+    #r{
+        color: blue;
+    }
+    
+    .phonecalltextbread{
+    
+        width: 100%;
+        height: 240px;
+        background-color: transparent;
+        font-size: 18px;
+        margin-top: 10px;
+        font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 400;
+        color: #333;
+        line-height: 1.5;
+        
+    }
+    
+    .phonecallimg{
+    
+       
+        width: 392px;
+        height: 425px;
+        background-color: transparent;
+        position: absolute;
+        margin-top: 40px;
+    }
+    
+    .phonecallimg img{
+    
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mainbox{
+
+        width: 100%;
+        height: 1030px;
+        background-color: #131419;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainboximg{
+
+        width: 100%;
+        height: 620px;
+        background-color: transparent;
+        position: relative;
+        top: 320px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .mainboximg img{
+
+        width: 500px;
+        height: 100%;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+    .mainboxcontent{
+
+        width: 500px;
+        height: 270px;
+        background-color: transparent;
+        position: absolute;
+        right: auto;
+        margin-top: 50px;
+       
+    }
+
+ 
+    
+    .mainboxtext1{
+    
+        width: 100%;
+        height: 75px;
+        background-color: transparent;
+        text-align: center;
+        padding-top: 18px;
+        font-size: 45px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 320;
+        color: white;
+    }
+    
+    .mainboxtext2{
+    
+        width: 100%;
+        height: 75px;
+        background-color: transparent;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 320;
+        color: white;
+    }
+    
+    .mainboxtext3{
+    
+        width: 100%;
+        height: 75px;
+        background-color: transparent;
+        text-align: center;
+        padding-top: 0px;
+        font-size: 22px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 320;
+        color: white;
+    }
+
+
+}
+
+
+

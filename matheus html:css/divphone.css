@@ -1,0 +1,911 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.intro{
+
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.introimg{
+    width: 1100px;
+    height: 500px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+
+}
+
+.introimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.introtext{
+    width: 950px;
+    height: 230px;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 30px;
+    z-index: 3;
+}
+
+.introtextheader{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0px 5px 0px ;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333;
+}
+
+.introtextinfo{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0px 5px 0px ;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333;
+}
+
+.introtextbigbox{
+
+    width: 80%;
+    height: 60px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.introtextminibox{
+
+    width: 100px;
+    height: 40px;
+    padding-top: 13px;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    color: rgb(0, 70, 199);
+    text-decoration: none;
+}
+
+.introtextminibox a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1100px){
+
+
+    .intro{
+
+        width: 100%;
+        height: 500px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .introimg{
+        width: 850px;
+        height: 350px;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 150px;
+        z-index: 1;
+    
+    }
+    
+    .introimg img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .introtext{
+        width: 800px;
+        height: 210px;
+        background-color: transparent;
+        position: absolute;
+        margin-top: 50px;
+        
+    }
+    
+    .introtextheader{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        text-align: center;
+        padding: 10px 0px 5px 0px ;
+        font-size: 36px;
+        font-weight: 500;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: #333;
+    }
+    
+    .introtextinfo{
+        width: 100%;
+        height: 70px;
+        background-color: transparent;
+        text-align: center;
+        padding: 10px 0px 5px 0px ;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: #333;
+    }
+    
+    .introtextbigbox{
+    
+        width: 80%;
+        height: 60px;
+        background-color: transparent;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .introtextminibox{
+    
+        width: 100px;
+        height: 40px;
+        padding-top: 13px;
+        background-color: transparent;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: #333;
+        text-align: center;
+        color: rgb(0, 70, 199);
+    }
+}
+
+.second{
+
+    width: 100%;
+    height: 700px;
+    background-color: #0b0b0e;
+  
+}
+
+.secondimg{
+
+    width: 750px;
+    height: 580px;
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondimg img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 800px){
+
+
+    .intro{
+
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .introimg{
+        width: 500px;
+        height: 250px;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 150px;
+        z-index: 0;
+    
+    }
+    
+    .introimg img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .introtext{
+        width: 450px;
+        height: 210px;
+        background-color: transparent;
+        position: absolute;
+        margin-top: 50px;
+        z-index: 1;
+    }
+    
+    .introtextheader{
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        text-align: center;
+        padding: 0px 0px 0px 0px ;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: #333;
+    }
+    
+    .introtextinfo{
+        width: 100%;
+        height: 70px;
+        background-color: transparent;
+        text-align: center;
+        padding: 10px 0px 5px 0px ;
+        font-size: 31px;
+        font-weight: 600;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: #333;
+    }
+    
+    .introtextbigbox{
+    
+        width: 80%;
+        height: 60px;
+        background-color: transparent;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .introtextminibox{
+    
+        width: 100px;
+        height: 40px;
+        padding-top: 13px;
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        text-align: center;
+        color: rgb(0, 70, 199);
+    }
+
+    .second{
+
+        width: 100%;
+        height: 580px;
+        background-color: #0b0b0e;
+      
+    }
+    
+    .secondimg{
+    
+        width: 600px;
+        height: 460px;
+        position: relative;
+        top: 120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .secondimg img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+
+
+    .second{
+
+        width: 100%;
+        height: 416px;
+        background-color: #0b0b0e;
+      
+    }
+    
+    .secondimg{
+    
+        width: 450px;
+        height: 346px;
+        position: relative;
+        top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .secondimg img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+.third{
+
+    width: 100%;
+    height: 830px;
+    background-color: white;
+}
+
+.wrapper3{
+
+    width: 900px;
+    height: 700px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 65px;
+    position: relative;
+}
+
+.thirdtext{
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    float: left;
+}
+
+.thirdtextheader{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    font-size: 37px;
+    color: #333;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+}
+
+.thirdtextinfo{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    font-size: 43px;
+    color: #333;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+}
+
+.thirdtextbigbox{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+
+.thirdtextminibox{
+
+    width: auto;
+    height: 25px;
+    background-color: transparent;
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(19, 96, 168);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thirdimg{
+
+    width: 420px;
+    height: 700px;
+    background-color: transparent;
+    float: right;
+}
+
+.thirdimg img{
+
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 950px){
+
+
+.third{
+
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+
+ .wrapper3{
+
+    width: 700px;
+    height: 900px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    top: 65px;
+    position: relative;
+}
+
+.thirdtext{
+    width: 430px;
+    height: 200px;
+    background-color: transparent;
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.thirdtextheader{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+}
+
+.thirdtextinfo{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+}
+
+.thirdtextbigbox{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+
+.thirdtextminibox{
+
+    width: auto;
+    height: 25px;
+    background-color: transparent;
+    font-size: 19px;
+    color: #333;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(19, 96, 168);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thirdimg{
+
+    width: 560px;
+    height: 900px;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 70px;
+   
+}
+
+.thirdimg img{
+
+    width: 100%;
+    height: 100%;
+ }
+}
+
+
+
+@media only screen and (max-width: 700px){
+
+
+    .third{
+    
+        width: 100%;
+        height: 850px;
+        background-color: white;
+    }
+    
+     .wrapper3{
+    
+        width: 450px;
+        height: 800px;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        top: 25px;
+        position: relative;
+    }
+    
+    .thirdtext{
+        width: 360px;
+        height: 200px;
+        background-color: transparent;
+        position: absolute;
+        margin-top: -270px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    
+    .thirdtextheader{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        font-size: 32px;
+        color: #333;
+        text-align: center;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 500;
+    }
+    
+    .thirdtextinfo{
+        width: 100%;
+        height: 100px;
+        background-color: transparent;
+        font-size: 36px;
+        color: #333;
+        text-align: center;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 600;
+    }
+    
+    .thirdtextbigbox{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .thirdtextminibox{
+    
+        width: auto;
+        height: 25px;
+        background-color: transparent;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
+        color: rgb(19, 96, 168);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .thirdimg{
+    
+        width: 430px;
+        height: 670px;
+        background-color: transparent;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 10px;
+       
+    }
+    
+    .thirdimg img{
+    
+        width: 100%;
+        height: 100%;
+     }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .retrowrapper{
+
+        width: 100%;
+        height: 730px;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .retrobox{
+        width: 372px;
+        height: 546px;
+        background-color: white;
+        margin: 0px 7px;
+    }
+
+    .retroboximg{
+
+        width: 100%;
+        height: 420px;
+        background-color: transparent;
+    }
+
+    .retroboximg img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .retroboxtext{
+
+        width: 100%;
+        height: 126px;
+        background-color: transparent;
+    }
+
+
+
+    .retroboxretro{
+        width: 100%;
+        height: 28px;
+        padding-top: 15px;
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: 200;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: tomato;
+        text-align: center;
+    }
+
+    .retroboxbread{
+        width: 100%;
+        height: 78px;
+        padding-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+        text-align: center;
+       
+
+    }
+
+
+    .retroboxbread a{
+        color: #06c;
+        font-size: 24px;
+        font-weight: 250;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        
+    }
+
+    .retroboxbread a:hover{
+
+        text-decoration: underline;
+        text-decoration-color: #06c;
+        text-decoration-skip: way;
+
+    }
+
+
+    @media only screen and (max-width: 1123px){
+
+
+        .retrowrapper{
+
+            width: 100%;
+            height: 630px;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .retrobox{
+            width: 270px;
+            height: 396px;
+            background-color: white;
+            margin: 0px 5px;
+        }
+    
+        .retroboximg{
+    
+            width: 100%;
+            height: 270px;
+            background-color: transparent;
+        }
+    
+        .retroboximg img{
+            width: 100%;
+            height: 100%;
+        }
+    
+        .retroboxtext{
+    
+            width: 100%;
+            height: 126px;
+            background-color: transparent;
+        }
+    
+    
+    
+        .retroboxretro{
+            width: 100%;
+            height: 28px;
+            padding-top: 15px;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: 200;
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            color: tomato;
+            text-align: center;
+        }
+    
+        .retroboxbread{
+            width: 100%;
+            height: 78px;
+            padding-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: transparent;
+            text-align: center;
+           
+    
+        }
+    
+    
+        .retroboxbread a{
+            color: #06c;
+            font-size: 24px;
+            font-weight: 250;
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            
+        }
+    
+        .retroboxbread a:hover{
+    
+            text-decoration: underline;
+            text-decoration-color: #06c;
+            text-decoration-skip: way;
+    
+        }
+    }
+
+
+    @media only screen and (max-width: 845px){
+
+
+        .retrowrapper{
+
+            width: 100%;
+            height: 1540px;
+            background-color: #f2f2f2;
+            display: block;
+        }
+    
+        .retrobox{
+            width: 100%;
+            height: 480px;
+            background-color: white;
+            top: 40px;
+            position: relative;
+            margin: 20px 0px 0px 0px;
+        }
+
+        .retrobox:first-child{
+            top: 40px;
+        }
+    
+        .retroboximg{
+    
+            width: 350px;
+            height: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: transparent;
+        }
+    
+        .retroboximg img{
+            width: 100%;
+            height: 100%;
+        }
+    
+        .retroboxtext{
+    
+            width: 100%;
+            height: 126px;
+            background-color: transparent;
+        }
+    
+    
+    
+        .retroboxretro{
+            width: 100%;
+            height: 28px;
+            padding-top: 15px;
+            background-color: transparent;
+            font-size: 16px;
+            font-weight: 200;
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            color: tomato;
+            text-align: center;
+        }
+    
+        .retroboxbread{
+            width: 100%;
+            height: 78px;
+            padding-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: transparent;
+            text-align: center;
+           
+        }
+    
+    
+        .retroboxbread a{
+            color: #06c;
+            font-size: 21px;
+            font-weight: 250;
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            
+        }
+    
+        .retroboxbread a:hover{
+    
+            text-decoration: underline;
+            text-decoration-color: #06c;
+            text-decoration-skip: way;
+    
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
